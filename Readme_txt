@@ -1,0 +1,17 @@
+// *************************************************************************************
+// Treinamento  : Bigdata com Snowflake - Turma 02                                     //
+// Criação	    : por Rogério Ferreira & LS Treinamentos                               //                                            
+// Descrição	  : Laboratório para aprendizado de Manipulação de objetos no Snowflake  //
+// Origens		  : Base compartilhada pelo Snowflake para estudo e aprendizado          //
+//				                                                                             //
+// Mudanças		: 2025-10-02 por 'Rogério Ferreira'                                      //
+// Motivos      : 1) Treinamento Turma 02                                              //
+// Aprendizado  : 1) Configurar integração AWS S3                                      //
+//                2) Trabalhar com file formats                                        //
+//                3) Trabalhar com arquivos csv                                        //
+//                4) Normalização de dados                                             //
+//                5) Criar camadas e views                                             //
+//                6) Criar Cortex Search                                               //
+//                7) Configurar Snowflake Intelligence                                 //
+//                8) Criar Agente IA                                                   //
+// *************************************************************************************
