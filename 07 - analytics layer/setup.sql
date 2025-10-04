@@ -1,7 +1,8 @@
 /*--
  • analytics view creation
 --*/
-
+USE ROLE sysadmin;
+USE WAREHOUSE tb_de_wh;
 -- orders_v view
 CREATE OR REPLACE VIEW tb_101.analytics.orders_v
 COMMENT = 'Tasty Bytes Order Detail View'
