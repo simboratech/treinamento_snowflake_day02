@@ -1,7 +1,8 @@
 /*--
  • harmonized view creation
 --*/
-
+USE ROLE sysadmin;
+USE WAREHOUSE tb_de_wh;
 -- orders_v view
 CREATE OR REPLACE VIEW tb_101.harmonized.orders_v
     AS
