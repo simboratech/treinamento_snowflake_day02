@@ -19,8 +19,9 @@ SELECT * FROM tb_101.harmonized.customer_loyalty_metrics_v;
 CREATE OR REPLACE VIEW tb_101.analytics.truck_reviews_v 
     AS
 SELECT * FROM harmonized.truck_reviews_v;
-GRANT USAGE ON SCHEMA raw_support to ROLE tb_admin;
-GRANT SELECT ON TABLE raw_support.truck_reviews TO ROLE tb_admin;
+
+GRANT USAGE ON SCHEMA tb_101.raw_support to ROLE tb_admin;
+GRANT SELECT ON TABLE tb_101.raw_support.truck_reviews TO ROLE tb_admin;
 
 -- view for streamlit app
 CREATE OR REPLACE VIEW tb_101.analytics.japan_menu_item_sales_feb_2022
