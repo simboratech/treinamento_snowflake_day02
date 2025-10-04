@@ -1,6 +1,9 @@
 /*--
  raw zone table build 
 --*/
+USE ROLE sysadmin;
+USE WAREHOUSE tb_de_wh;
+
 
 -- country table build
 CREATE OR REPLACE TABLE tb_101.raw_pos.country
