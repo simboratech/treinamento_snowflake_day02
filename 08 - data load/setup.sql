@@ -1,7 +1,8 @@
 /*--
  raw zone table load 
 --*/
-
+USE ROLE sysadmin;
+USE WAREHOUSE tb_de_wh;
 -- truck_reviews table load
 COPY INTO tb_101.raw_support.truck_reviews
 FROM @tb_101.public.truck_reviews_s3load/raw_support/truck_reviews/;
