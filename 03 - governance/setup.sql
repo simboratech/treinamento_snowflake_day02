@@ -117,8 +117,8 @@ GRANT APPLY MASKING POLICY ON ACCOUNT TO ROLE tb_data_engineer;
 GRANT EXECUTE DATA METRIC FUNCTION ON ACCOUNT TO ROLE tb_admin;
 
 -- Grants for tb_analyst
-GRANT ALL ON SCHEMA tbt101.harmonized TO ROLE tb_analyst;
-GRANT ALL ON SCHEMA tbt101.analytics TO ROLE tb_analyst;
+GRANT ALL ON SCHEMA tb_101.harmonized TO ROLE tb_analyst;
+GRANT ALL ON SCHEMA tb_101.analytics TO ROLE tb_analyst;
 GRANT OPERATE, USAGE ON WAREHOUSE tb_analyst_wh TO ROLE tb_analyst;
 
 -- Grants for cortex search service
