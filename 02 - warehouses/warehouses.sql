@@ -3,6 +3,8 @@ Asset:       Setup Warehouses to use
 Version:      v1     
 ****************************************************************************************************/
 
+USE ROLE sysadmin;
+
 -- create warehouses
 CREATE OR REPLACE WAREHOUSE tb_de_wh
     WAREHOUSE_SIZE = 'large' -- Large for initial data load - scaled down to XSmall at end of this scripts
